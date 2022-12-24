@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+     background-image: url("http://store-images.s-microsoft.com/image/apps.47128.14328552260828960.f8850629-c212-499c-899a-976d5c625d6e.760d2198-da76-4add-bd6b-5c4d2f8ba7cb");
+     background-size: cover;
+     background-position: center center;
+     display: flex;
+     flex-direction:column;
+     align-items: center;
+     justify-content: center;
+     min-height: 100vh;
+     font-family:'Poppins',sans-serif;
+     margin:0;
+}
+h1 {
+    font-size: 4rem;
+    margin-top: -20rem;
+    margin-top: 5rem;
+}
+.countdown-container {
+  display: flex;
+}
+
+.big-text{
+    font-weight: bold;
+    font-size: 6rem;
+    line-height: 1;
+    margin: 0 2rem;
+}
+.countdown-el{
+    text-align: center;
+}
+.countdown-el span {
+    font-size: 1.5rem;
+}
+
+
+
